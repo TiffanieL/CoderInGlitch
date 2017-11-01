@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Original https://googlecreativelab.github.io/coder-projects/projects/perfect_recipe/ -->
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+    <title>The Perfect Recipe | Coder Projects</title>
+    
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link href="project.css" media="all" rel="stylesheet" type="text/css">
+
+    <meta itemprop="name" content="The Perfect Recipe | Coder Projects">
+    <meta itemprop="description" content="Things to make. Stuff to learn. Make fun web stuff on Glitch.">
+    <meta itemprop="image" content="./images/info.jpg">
+
+</head>
+
+<body>
+    <div id="project_nav">
+        <div class="project_home"><a href="http://tiffanielink.in/coderWithGlitch/">HOME</a></div>
+        <div class="project_info">&lt;project&gt; steps(12)</div>
+        <h1>The Perfect Recipe</h1>
+        <a href="http://goo.gl/coder" class="what_is_coder">Original CODER website</a>
+    </div>
+
+    <div class="section intro">
+        <img class="feature" src="./images/feature_full(1).jpg">
+    </div>
+
+    <div class="section description">
+        <div class="details">
+            <h2>Description</h2>
+            <p>Do you have a favorite recipe that you want to share with the world? With this project we will use code to write a recipe that looks as good as it tastes.</p>
+            <p class="whofor"><strong>A great project for:</strong>
+                Foodies, chefs, sandwich aficionados, and anyone looking to learn the basics of web design and Glitch.
+            </p>
+        </div>
+        <div class="meta">
+            <div class="difficulty">Easy</div>
+            <p><span class="name">Skills Needed:</span>
+                None!
+            </p>
+            <p><span class="name">Skills Learned:</span>
+                Introduction to Glitch, Basic HTML, Basic CSS, Color, Images, Fonts, Lists
+            </p>
+            <p><span class="name">Created By:</span>
+                <a href="http://googlecreativelab.github.io/coder-projects/" target="_blank">Coder Team</a>
+            </p><p><span class="name">Converted to Glitch By:</span>
+                <a href="http://tiffanielink.in" target="_blank">Tiffanie</a>
+            </p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="section">
+        
+        <div class="projectlink">
+        	<!-- <img src="./images/glitch_logo.svg" style="width: 10%; padding-right: 20px;"> -->
+        	<h2>Step 0: Create a Glitch account</h2>            
+            <p>Make sure to create an account on Glitch to save your projects! Navigate to <a href="http://www.glitch.com" target="_blank">glitch.com</a>
+            <ul>
+            	<img src="./images/glitch_signIn.png" style="width: 30%; float: right;">
+            	<li>Click on "Sign in" in the top right corner and choose "Sign in with GitHub".</li>
+            	<li>If you don't have a GitHub account, click "Create an account" at the bottom of the screen (this will allow us to learn about GitHub later!).</li>
+            	<li>Choose a username, enter your email and password, and click next.</li>
+            	<li>At the "choose a plan" section leave the settings as is - don't worry it's free! Click continue.</li>
+            	<li>Check your email to validate your email address and log in to GitHub.</li>
+            	<li>Navigate back to <a href="http://www.glitch.com" target="_blank">glitch.com</a> and click "Sign in" in the top right.</li>
+            	<li>Click "Authorize FogCreek" to link your accounts.</li>
+            	<li>Made it! You're ready to start coding &#x1F44D</li>
+            </ul>
+            </p>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="section steps">
+        <div class="step">
+            <h2>Step 1: Make a new Glitch project</h2>
+            <p><img src="./images/glitch_createWebsite.png" style="width: 100%;"></p>
+            <p>Our very first step with each lesson will be to create a new Glitch project. On the main Glitch website you will see a button that says "Start a New Project", and below that there is a section that says "Your Projects". Keep scrolling to see Featured Projects, and down farther a section called Hello Worlds - these are starter, or "boilerplate", projects that will help you become familiar with many different languages and projects you can make. After that are many more example projects in different categories, take a look whenever you want. Now, let’s make our own program!
+            </p>
+            <ul>
+                <li>Click on the button near the top of the main page that says "Start a new Project"</li>
+                <li>Click on "Create a Website".</li>
+                <li>This is the Glitch IDE or Integrated Development Environment.</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <h2>Step 2: Let's look around</h2>
+            <p>Now we’re going to take a look at our new project. All Glitch projects have the same features so let’s take a second to familiarize ourselves with them.</p>
+            <p><img src="./images/glitch_IDE.png" style="width: 100%;"></p>
+            <p><b>Integrated Development Environment</b><br>When you begin a new project you can see the Glitch integrated development environment, or IDE for short. What does that mean? An IDE is a software application that allows you as the programmer to develop your software in a fluid way. Rather than switching between many programs, this has it all in one! A source code editor (which usually has autocomplete abilities), build tools (that compile your source code into that pretty final website!), and debugging tools (that shows you where errors are). What we’re looking at is the source code for our new web project, keep reading to learn about the parts of this IDE.</p>
+
+            <ul style="list-style:none; padding-left:0;">
+                <li>A. Project Button: This will display a menu where you can change the project name and description, find the live URL, create a new project or Remix this one, or switch to one of your other projects.</li>
+                <li>B. Show Live Button: Click this button to see your webpage in a new tab - this is a real web page you can have others visit!</li>
+                <li>C. Search Bar: This is where you can search for something in your files or assets, you'll use this as your project gets bigger.</li>
+                <li>D. User Options: This will open a menu that allows you to change your theme (the color of the development environment), and select or deselect options to see live changes on your website (if your internet is slow it may help to deselect this) and wrap text, or sign out.</li>
+                <li>E. Glitch options: This menu will allow you to open Community Project or the forum (where you can get help) in a new tab. There are other features in here that you can explore later on.</li>
+                <li>F. User controls: This icon will open up a menu that allows you to leave the project, and once other users join your project it will give you the option to thank them for help or remove them from the project.</li>
+                <li>G. Share: This menu gives you the option to share a link to view your code, and another link to invite others to join your project and code with you! You also have the option to make your project private, so that only users you have invited to join the project can see it.</li>
+                <li>H. Collapse: Click this button to collapse or expand this side-bar.</li>
+                <li>I. Logs: This opens an activity log at the bottom of the development environment. It allows you to see things like when people visit your website, what kind of browser they are using, and more. You'll check this out later on.</li>
+                <li>J. New File: Here you can add another file to create more web pages or other CSS and JavaScript files.</li>
+                <li>K. Assets: Here is where you can see assets or the things you are using in your project like images and sound files.</li>
+                <li>L. Remix this: This button will allow you to save a copy of the current file.</li>
+                <li>M. Markdown: This button switches between the Markdown editing or the live view. Markdown is a markup language, essentially it is a text-to-HTML tool that allows you to write simple commands in your text that gets displayed with formatting - like changing font size, bold, italics, bullet lists, etc. We will explore this more in another lesson.</li>
+            </ul>
+
+            <p><img src="./images/glitch_help.png" style="float: right; width: 25%;">
+            	<b>Awesome feature alert!</b><br>
+            	If you ever have trouble with your code and get stuck Glitch has this awesome feature to get help from the community. All you have to do is highlight the lines of code that you think are the issue and a little icon with a raised hand will appear. Click on that, fill it out, and click the "Ask for Help" button. This will show up on the main Glitch website where other users can look at your code and offer help! Neat, huh?
+            </p>
+            
+            <p>Now that we know a little bit about what’s under the hood let’s take a look at what our project looks like right now. Click the "Show Live" button to see your site.</p>
+            <p><img src="./images/glitch_sideBySide.png" style="width: 100%;"></p>
+            <p><b>Live View</b><br>
+            	Place the development environment and the live preview of your website side by side as displayed above. To do this in many browsers you can drag one of the tabs out of the window to open it in a new window. Now resize and move them next to each other, that way you can code and see your changes instantly!
+            </p>
+        </div>
+        <div class="step">
+            <h2>Step 3: Where's the heading?</h2>
+            <p><img src="./images/glitch_sideBySide2.png" style="width: 100%;"></p>
+            <p>Now that we know our way around let’s start coding! All Glitch website projects start with a little bit of code already in them so let’s use what’s there and build on it.</p>
+            <ul>
+                <li>In the development environment click on index.html. We’ll be doing a lot of our work here.</li>
+
+                <li>Take a look at the code. You might have noticed that the lines start with a bit of text that looks like this: “<b>&lt;word&gt;</b>”. This is called a tag. Tags are the bits of HTML that define the structure and content of a site. They are very important in HTML. Most tags have an open tag and a close tag. A close tag looks like this <b>&lt;/tag&gt;</b>. See that slash? That’s what makes a closed tag close. Most tags need an opening and a closing or else they won’t work, you will learn about the ones that don't need closing tags (such as images) later on.</li> <!-- more info at https://stackoverflow.com/a/7854998/6005346 -->
+
+                <li>Find the <b>&lt;h1&gt;</b> tag. This is the tag for a heading. Right now the heading looks like this:<br>
+
+                    <pre>&lt;h1&gt;Hi there!&lt;/h1&gt;</pre>
+                </li>
+
+                <li>Let’s make this the title of our recipe. Change it to the name of sandwich you want to write a recipe for. You can use whatever sandwich you like. We called ours "The Perfect PB&J". 
+                <!-- The ampersand (&amp;) is a special character in HTML, so you need to write its escaped form, which looks like <b>&amp;amp;</b>:<br> -->
+
+                    <pre>&lt;h1&gt;The Perfect PB&J&lt;/h1&gt;</pre>
+                </li>
+
+                <li>Glitch auto-saves your work, and you should see it updating in your live preview. Notice how the headline text changed, but everything else stayed the same.</li>
+            </ul>
+        </div>
+        <div class="step">
+            <h2>Step 4: Let’s start describing it</h2>
+            <p><img src="./images/glitch_sideBySide2.1.png" style="width: 100%;"></p>
+            <p>Now that we know how to change the content of tags, let’s change a few more and add some new ones to start putting together our recipe.</p>
+            <ul>
+                <li>See the <b>&lt;p&gt;</b> tag underneath the <b>&lt;h1&gt;</b> we just changed? That’s a paragraph tag. We’re going to turn it into our recipe description.<br>
+
+                    Right now the &lt;p&gt; tag looks like this:<br>
+
+                    <pre>&lt;p&gt;I'm your cool new webpage. Made with 
+&lt;a href="https://www.glitch.com"&gt;Glitch&lt;/a&gt;&lt;/p&gt;</pre>
+                </li>
+                <li>Change it to instead describe your recipe.</li>
+            </ul>
+            <p><i>Ours looks like this:</i></p>
+            	<!-- HTML generated using hilite.me -->
+            	<div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">&lt;p&gt;</span>This peanut butter and jelly sandwich is my favorite sandwich. It has the perfect balance of ingredients and looks great when made right.<span style="color: #062873; font-weight: bold">&lt;/p&gt;</span></pre></div>
+            <ul>
+                <li>Your recipe description should now be on screen.</li>
+
+                <li>Up to this point, we’ve only modified tags that were already in the project. Let’s add a new one! We’ll add a small headline to our description.</li>
+
+                <li>Add a new line of code between the <b>&lt;h1&gt;</b> and <b>&lt;p&gt;</b> tag.</li>
+
+                <li>Now let’s add an <b>&lt;h2&gt;</b> tag. It’s a headline, like the <b>&lt;h1&gt;</b> but won’t be as prominent. The <b>&lt;h2&gt;</b> tag should read “Description.”</li>
+            </ul>
+            <p><i>Your code should look like this:</i></p>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">&lt;h1&gt;</span>The Perfect PB&J<span style="color: #062873; font-weight: bold">&lt;/h1&gt;</span>
+<span style="color: #062873; font-weight: bold">&lt;h2&gt;</span>Description<span style="color: #062873; font-weight: bold">&lt;/h2&gt;</span>
+<span style="color: #062873; font-weight: bold">&lt;p&gt;</span>This peanut butter and jelly sandwich is my favorite sandwich. It has the perfect balance of ingredients and looks great when made right.<span style="color: #062873; font-weight: bold">&lt;/p&gt;</span></pre>
+            </div>
+
+        </div>
+        <div class="step">
+            <h2>Step 5: One rule to divide them all</h2>
+            <p><img src="./images/glitch_sideBySide3.png" style="width: 100%;"></p>
+            
+            <p>Now our recipe title and section title are butting into one another. That’s no good. Let’s add a line between them to keep them separate and divide the recipe into distinct sections.</p>
+
+            <p>Between the <b>&lt;h1&gt;</b> and <b>&lt;h2&gt;</b> tags make a new line and add a single <b>&lt;hr /&gt;</b> tag.</p>
+
+            <p><i>It should look like this:</i></p>
+
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">&lt;h1&gt;</span>The Perfect PB&J<span style="color: #062873; font-weight: bold">&lt;/h1&gt;</span>
+<span style="color: #062873; font-weight: bold">&lt;hr</span> <span style="color: #062873; font-weight: bold">/&gt;</span>
+<span style="color: #062873; font-weight: bold">&lt;h2&gt;</span>Description<span style="color: #062873; font-weight: bold">&lt;/h2&gt;</span>
+</pre></div>
+
+
+            <p>Remember, all tags need to be closed. There are, however, some elements that are simple and don't contain content. These tags close themselves, using the slash (<b>/</b>) at the end of the tag.</p>
+
+            <p>The <b>&lt;hr /&gt;</b> tag is one of those tags. <b>HR</b> stands for “Horizontal Rule” and it’s an HTML element designed to divide content on a page.</p>
+
+            <p>Take a look. See how the &lt;hr /&gt; line separates the title from the description?</p>
+
+        </div>
+        <div class="step">
+            <h2>Step 6: What else do we need?</h2>
+            <p><img src="./images/glitch_sideBySide4.png" style="width: 100%;"></p>
+            <p>Any good recipe needs a list of ingredients. Fortunately HTML gives us an easy way to make list using tags.</p>
+            <ul>
+                <li>Let’s start by creating a new section like the description section we’ve already made.</li>
+                <li>Make a new code line and add another <b>&lt;hr /&gt;</b> tag underneath our description.</li>
+                <li>Beneath that <b>&lt;hr /&gt;</b> add an <b>&lt;h2&gt;</b> tag for the headline “Ingredients.”</li>
+            </ul>
+
+            <p><i>Our code looks like this:</i></p>
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">&lt;hr</span> <span style="color: #062873; font-weight: bold">/&gt;</span>
+<span style="color: #062873; font-weight: bold">&lt;h2&gt;</span>
+  Ingredients
+<span style="color: #062873; font-weight: bold">&lt;/h2&gt;</span>
+</pre></div>
+
+
+            <p>Now let’s add a new type of tag called an “un-ordered list.” An un-ordered list tag produces a nice list of things, each with their own bullet point. In fact, you’re reading an un-ordered list right now!</p>
+
+            <p>Un-ordered lists actually use two tags. One starts and ends the list. It looks like this <b>&lt;ul&gt;</b>. The other sits in between those tags and identifies a list item. It looks like this <b>&lt;li&gt;</b>.</p>
+
+            <ul>
+                <li>Make a new line of code and add an <b>&lt;ul&gt;</b> tag.</li>
+                <li>For each list item make a new line of code and enter an ingredient or tool needed for your recipe with a <b>&lt;li&gt;</b> tag.</li>
+            </ul>
+
+            <p><i>Ours looks like this:</i></p>
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">&lt;h2&gt;</span>
+  Ingredients
+<span style="color: #062873; font-weight: bold">&lt;/h2&gt;</span>
+<span style="color: #062873; font-weight: bold">&lt;ul&gt;</span>
+  <span style="color: #062873; font-weight: bold">&lt;li&gt;</span>2 slices of white bread<span style="color: #062873; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #062873; font-weight: bold">&lt;li&gt;</span>1 jar of grape jelly<span style="color: #062873; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #062873; font-weight: bold">&lt;li&gt;</span>1 jar of smooth peanut butter<span style="color: #062873; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #062873; font-weight: bold">&lt;li&gt;</span>A butter knife<span style="color: #062873; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #062873; font-weight: bold">&lt;li&gt;</span>A sharp knife<span style="color: #062873; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #062873; font-weight: bold">&lt;li&gt;</span>A cutting board<span style="color: #062873; font-weight: bold">&lt;/li&gt;</span>
+<span style="color: #062873; font-weight: bold">&lt;/ul&gt;</span>
+</pre></div>
+
+
+        </div>
+        <div class="step">
+            <h2>Step 7: How do we make it?</h2>
+            <p><img src="./images/glitch_sideBySide5.png" style="width: 100%"></p>
+            <p>In the last step, we made an un-ordered list for our ingredients. Now let’s make an ordered list to describe each step we need to make our recipe. Ordered lists look like un-ordered lists except they have numbers instead of bullets.</p>
+            <ul>
+                <li>Let’s start a new section just like the last one. We'll add the recipe directions beneath the “Ingredients” section.
+                </li><li>Add an <b>&lt;hr /&gt;</b> tag and an <b>&lt;h2&gt;</b> tag with the headline “Directions.”</li>
+                <li>Start a new line and and add an <b>&lt;ol&gt;</b> tag. This is the tag for our ordered list.</li>
+                <li>Start a line underneath that and begin adding <b>&lt;li&gt;</b> tags for each direction step.</li> 
+                <li>Don’t forget to close your <b>&lt;ol&gt;</b> tag at the end of the list with <b>&lt;/ol&gt;</b>.</li>
+            </ul>
+
+            <p><i>Our code looks like this:</i></p>
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">&lt;hr</span> <span style="color: #062873; font-weight: bold">/&gt;</span>
+<span style="color: #062873; font-weight: bold">&lt;h2&gt;</span>
+  Directions
+<span style="color: #062873; font-weight: bold">&lt;/h2&gt;</span>
+<span style="color: #062873; font-weight: bold">&lt;ol&gt;</span>
+  <span style="color: #062873; font-weight: bold">&lt;li&gt;</span>Lay both slices of bread next to each other on a cutting board.<span style="color: #062873; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #062873; font-weight: bold">&lt;li&gt;</span>With the butter knife, spread a 1/8 inch layer of peanut butter on the left side<span style="color: #062873; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #062873; font-weight: bold">&lt;li&gt;</span>On the right side, spread a 1/8 inch layer of jelly.<span style="color: #062873; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #062873; font-weight: bold">&lt;li&gt;</span>Carefully place the two halves together so that the jelly is on top <span style="color: #062873; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #062873; font-weight: bold">&lt;li&gt;</span>With the sharp knife, carefully trim the crust from the sandwich.<span style="color: #062873; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #062873; font-weight: bold">&lt;li&gt;</span>Cut the sandwich diagonally.<span style="color: #062873; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #062873; font-weight: bold">&lt;li&gt;</span>Enjoy the PB&J!<span style="color: #062873; font-weight: bold">&lt;/li&gt;</span>
+<span style="color: #062873; font-weight: bold">&lt;/ol&gt;</span>
+</pre></div>
+
+            
+        </div>
+        <div class="step">
+            <h2>Step 8: What does it look like?</h2>
+            <p><img src="./images/glitch_sideBySide6.png" style="width: 100%"></p>
+            <p>Our recipe has come together nicely so far. We have all the basic elements in place. What we need now is an image. So let’s add one. If you don’t have an image of your own you can use this one for now:</p>
+            <p><img src="./images/pbj_sandwich.jpg"></p>
+            <p>Drag it to your desktop or download it someplace where you can get access to it easily. We will be uploading it into Glitch soon.</p>
+
+            <ul>
+                <li>Let’s put our image between our title and description sections.</li>
+                <li>Add a new line of code and a new <b>&lt;hr /&gt;</b> tag underneath the recipe title.</li>
+                <li>Between the two <b>&lt;hr /&gt;</b> tags, add a new line of code.</li>
+                <li>Add an <b>&lt;img src="" /&gt;</b> tag. It’s one of those tags that doesn’t need a close tag. Like <b>&lt;hr&nbsp;/&gt;</b>.</li>
+            </ul>
+
+            <p><i>It should look like this. Notice the <b>src=""</b> part. That's an attribute of the <b>img</b> tag that will let us specify the image we want to load.</i></p>
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">&lt;hr</span> <span style="color: #062873; font-weight: bold">/&gt;</span>
+<span style="color: #062873; font-weight: bold">&lt;img</span> <span style="color: #4070a0">src=&quot;&quot;</span> <span style="color: #062873; font-weight: bold">/&gt;</span>
+<span style="color: #062873; font-weight: bold">&lt;hr</span> <span style="color: #062873; font-weight: bold">/&gt;</span>
+</pre></div>
+
+
+            <ul>
+                <li>Now let’s go up to the top of our Glitch project. Remember the "Assets" section? It's above the index.html file. Click that to see your assets (or images, sound files, etc).</li>
+                <li>Click on the "Add Asset" button at the top, or you can drag and drop the file from the file explorer on your computer.</li>
+                <li>Select either the image we’ve provided that you already downloaded earlier or your own image.</li>
+                <li>Once the image is uploaded, you should see appear in the asset gallery.</li>
+                <li>Click on the image in your asset library, and then click on the button that says "Copy URL". You will see a notification near the top right that says "Link Copied!".</li>
+                <li>Now we’re going to add our image. Click off of the image window popup, and go back to the index.html file. Position your cursor in between the two quote symbols (<b>""</b>) in the <b>&lt;img src="" /&gt;</b> tag we created.</li>
+                <li>With the cursor still in that position, either right click and select Paste or use the keyboard commands to paste (Windows: "ctrl + v" or Mac: "cmd + v"). A bunch of text that looks a little bit like a website address should appear between the quotes. That's the path to your image file.</li>
+            </ul>
+
+            <p><i>It should look something like this:</i></p>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">&lt;img</span> <span style="color: #4070a0">src=&quot;https://cdn.glitch.com/4b56d586-3f94-4a58-8971-ff3444b12293%2Fpbj_sandwich.jpg?1509224238469&quot;</span> <span style="color: #062873; font-weight: bold">/&gt;</span></pre>
+            </div>
+
+            
+            <ul>
+                <li>Save your code and take a look at the preview version? Did the image appear?</li>
+                <li>If you added your own image, it might be too big or too small. You can shrink it down and change its size within the <b>&lt;img /&gt;</b> tag by adding <b>height</b> and <b>width</b> attributes.</li>
+            </ul>
+            <p><i>Here's an example:</i></p>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">&lt;img</span> <span style="color: #4070a0">src=&quot;https://cdn.glitch.com/4b56d586-3f94-4a58-8971-ff3444b12293%2Fpbj_sandwich.jpg?1509224238469&quot;</span> <span style="color: #4070a0">height=&quot;400px&quot;</span> <span style="color: #4070a0">width=&quot;700px&quot;</span> <span style="color: #062873; font-weight: bold">/&gt;</span></pre>
+            </div>
+
+            
+            <p>Try adding <b>height</b> and <b>width</b> attributes to your &lt;img /&gt; tag. See what happens when you only use either the height or width attribute, but not the other. Did the image get squished or did it stretch evenly? Play around with different measurements until you like the way it looks on the page.</p>
+        </div>
+        <div class="step">
+            <h2>Step 9: Time for some style</h2>
+            <p>So far we’ve only been adding new code to the HTML section. This is the content of our project, the text and images that make up our recipe. The text we’ve added, the headings, the lists, and the paragraphs all have a default style applied to them. The browser is picking the type, size, and color of the font. Let’s customize it the way we want using CSS.</p>
+            <ul>
+                <li>Open the styles.css file now. CSS stands for “Cascading Style Sheets.” This file determines the style of the HTML elements, or the way they look. As you can tell there’s not much in here right now except a few bits of code that look like this:</li>
+            </ul>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">h1</span> {
+  <span style="color: #007020; font-weight: bold">color</span><span style="color: #666666">:</span> <span style="color: #007020">fuchsia</span>;
+}</pre>
+</div>
+
+            <p>CSS is what we use to style HTML elements. Just like HTML tags, it needs to be written a specific way to work.</p> 
+
+            <p><i>Generally, CSS styles look like this, keep an eye on those curly braces. They are very important and mark the start and finish of a style:</i></p>
+               
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #f0f0f0; overflow:auto;width:auto;padding:.4em .6em;"><pre style="margin: 0; line-height: 125%">selector {
+    property: value;
+}</pre>
+</div>
+
+
+            <ul>
+				<li>Let’s explore how this actually works. In the CSS file add a new line of code in the h1 style. Add the word <b>padding</b> for the property, and something huge like <b>300px</b> for the value and then save the code.</li>
+
+				<li>Take a look at the preview now. See how the all the content shifted? That’s because we increased the padding, or space between the text and everything else.</li>
+
+				<li>CSS styles affect the way things look in the HTML. It’s in this file that will make our text look pretty by changing fonts and colors.</li>
+
+				<li>Let’s not leave our padding so big. Let’s change the style to only add <b>50px</b> of padding to the <b>left</b> and <b>30px</b> to the <b>top</b> sides. We can write styles that are more specific and apply multiple properties to a single selector.</li>
+            </ul>
+            <br>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">h1</span> {
+  <span style="color: #007020; font-weight: bold">color</span><span style="color: #666666">:</span> <span style="color: #007020">fuchsia</span>;
+  <span style="color: #007020; font-weight: bold">padding-left</span><span style="color: #666666">:</span> <span style="color: #40a070">50px</span>;
+  <span style="color: #007020; font-weight: bold">padding-top</span><span style="color: #666666">:</span> <span style="color: #40a070">30px</span>;
+}</pre>
+</div>
+
+
+        </div>
+        <div class="step">
+            <h2>Step 10: Center content and change font family, style, and size</h2>
+            <p><img src="./images/glitch_sideBySide7.png" style="width: 100%"></p>
+            <p>Now that we know a little about styles, let’s start writing our own. Let's begin by making our content centered.</p>
+            <ul>
+                <li>Start a new line of code in the CSS tab.</li>
+                <li>For your selector all you need to do is write <b>body</b> and the CSS will change the style of the whole <b>body</b> tag in your HTML. After that, add an open curly brace, Glitch will automatically add the closing curly brace. Hit return to make room for your code.</li>
+            </ul>
+            <p><i>Your code should look like this:</i></p>
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">body</span> {
+  
+}
+</pre></div>
+
+ 
+            <ul>
+                <li>On the empty line in between the curly braces let’s add the property <b>width</b> and let’s make the value <b>700px</b> to match our picture. This will change the width of the content of your page to 700px, maximize your preview window to see the change.</li>
+            </ul>
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">body</span> {
+  <span style="color: #007020; font-weight: bold">width</span><span style="color: #666666">:</span> <span style="color: #40a070">700px</span>;
+}
+</pre></div>
+
+
+            <ul>
+                <li>Notice how all of your content is now to one side. Let's fix that by giving it a <b>margin</b> value of <b>auto</b>. This looks a little better!</li>
+            </ul>
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">body</span> {
+  <span style="color: #007020; font-weight: bold">width</span><span style="color: #666666">:</span> <span style="color: #40a070">700px</span>;
+  <span style="color: #007020; font-weight: bold">margin</span><span style="color: #666666">:</span> <span style="color: #007020; font-weight: bold">auto</span>;
+}
+</pre></div>
+
+
+            <ul>
+                <li>Let’s change the style of the heading. Go ahead and add three more properties and values to the h1 style: <b>font-family: courier, monospace;</b> , <b>font-size: 50px; </b> , and <b>font-weight: bold;</b></li>
+
+            </ul>            
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">h1</span> {
+  <span style="color: #007020; font-weight: bold">color</span><span style="color: #666666">:</span> <span style="color: #007020">fuchsia</span>;
+  <span style="color: #007020; font-weight: bold">padding-left</span><span style="color: #666666">:</span> <span style="color: #40a070">50px</span>;
+  <span style="color: #007020; font-weight: bold">padding-top</span><span style="color: #666666">:</span> <span style="color: #40a070">30px</span>;
+  <span style="color: #007020; font-weight: bold">font-family</span><span style="color: #666666">:</span> courier<span style="color: #666666">,</span> <span style="color: #007020; font-weight: bold">monospace</span>;
+  <span style="color: #007020; font-weight: bold">font-size</span><span style="color: #666666">:</span> <span style="color: #40a070">50px</span>;
+  <span style="color: #007020; font-weight: bold">font-weight</span><span style="color: #666666">:</span> <span style="color: #007020; font-weight: bold">bold</span>;
+}
+</pre></div>
+
+
+            <p>Take a look, the heading is now a different font, size, and bold!</p>
+
+        </div>
+        
+        <div class="step">
+            <h2>Step 11: Colorize!</h2>
+            <p><img src="./images/glitch_sideBySide8.png" style="width: 100%;"></p>
+            <p>Let's mix up the color on the page to make it more interesting.</p>
+            <ul>
+                <li>In the <b>h1</b> style change the color value to <b>red</b></li>
+                <li>The text changed to red didn’t it? Try another color name like <b>yellow</b> or <b>black</b> and see what happens.</li>
+            </ul>
+            
+            <p>You can use color names to apply colors in CSS. These are generic values, though and aren’t always exactly the color you want. If you want a little more control over color then you’ll need to use Hex values.</p>
+
+            <p>Hex values are codes that help a browser show color. They look like this: <b>#FF0000</b>. That’s the hex value for red. Hex codes are six digits long and contain only the number 0-9 and the letters A-F.</p>
+
+            <p><b>Here are some other example hex values:</b><br>
+#00FF00 - only green<br>
+#0000FF - only blue<br>
+#C0392B - softer red<br>
+#16A085 - softer green<br>
+#3498D8 - softer blue<br>
+#D977D4 - pink<br>
+#F1C40F - yellow<br>
+#F39C12 - orange<br>
+#FFFFFF - white<br>
+#000000 - black<br>
+#999999 - grey<br>
+            </p>
+
+            <p>Instead of a color name try adding a hex value into the color property and see what happens. Try changing the numbers as well to see what new colors you can create. You can also head over to Google and search for "color picker" which will bring up a color selection tool. This will display the Hex value for the color, as well as some others that you will learn about later. We've picked a nice blue color with a Hex value.</p>
+
+            <p><i>This is what our code looks like now:</i></p>
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">h1</span> {
+  <span style="color: #007020; font-weight: bold">color</span><span style="color: #666666">:</span> <span style="color: #40a070">#119be0</span>;
+  <span style="color: #007020; font-weight: bold">padding-left</span><span style="color: #666666">:</span> <span style="color: #40a070">50px</span>;
+  <span style="color: #007020; font-weight: bold">padding-top</span><span style="color: #666666">:</span> <span style="color: #40a070">30px</span>;
+  <span style="color: #007020; font-weight: bold">font-family</span><span style="color: #666666">:</span> courier<span style="color: #666666">,</span> <span style="color: #007020; font-weight: bold">monospace</span>;
+  <span style="color: #007020; font-weight: bold">font-size</span><span style="color: #666666">:</span> <span style="color: #40a070">50px</span>;
+  <span style="color: #007020; font-weight: bold">font-weight</span><span style="color: #666666">:</span> <span style="color: #007020; font-weight: bold">bold</span>;
+}
+</pre></div>
+
+
+        </div>
+        
+        
+        <div class="step">
+            <h2>Step 12: Copy/Paste/Tweak</h2>
+            <p><img src="./images/glitch_sideBySide9.png" style="width: 100%;"></p>
+            
+            <p>Now that we’ve styled our <b>h1</b> we’ve got to style everything else. The good news is that we’ve actually finished most of the work. All we need to do now is copy the <b>h1</b> style we’ve created and change a few things to create new styles for <b>h2</b>, <b>p</b>, and <b>li</b>. Let’s start with <b>h2</b>.</p>
+
+            <ul>
+                <li>Let’s copy and paste the everything style from our <b>h1</b> style.</li>
+                <li>Change the selector in this new style to <b>h2</b>.</li>
+                <li>Now let's remove the <b>padding-top</b> and change the value of the <b>font-size</b> to be something a little smaller, we’ve made ours <b>30px</b>.</li>
+            </ul>
+            <p><i>Our code looks like this:</i></p>
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">h2</span> {
+  <span style="color: #007020; font-weight: bold">color</span><span style="color: #666666">:</span> <span style="color: #40a070">#119be0</span>;
+  <span style="color: #007020; font-weight: bold">padding-left</span><span style="color: #666666">:</span> <span style="color: #40a070">50px</span>;
+  <span style="color: #007020; font-weight: bold">font-family</span><span style="color: #666666">:</span> courier<span style="color: #666666">,</span> <span style="color: #007020; font-weight: bold">monospace</span>;
+  <span style="color: #007020; font-weight: bold">font-size</span><span style="color: #666666">:</span> <span style="color: #40a070">30px</span>;
+  <span style="color: #007020; font-weight: bold">font-weight</span><span style="color: #666666">:</span> <span style="color: #007020; font-weight: bold">bold</span>;
+}
+</pre></div>
+
+            
+            <ul>
+                <li>Now take a look. See how it change all three headings with <b>&lt;h2&gt;</b> tags in the HTML? That’s the power of style sheets. You can set one style and have it affect multiple elements at once.</li>
+                <li>Now let’s do the same for <b>&lt;p&gt;</b> and <b>&lt;li&gt;</b> tags. Copy and paste the heading styles and make adjustments that make sense for those pieces of the recipe such as making the font-size a little smaller, changing the color, and removing the padding and font-weight property.</li>
+            </ul>
+
+            <p>Congrats, you’ve finished your recipe! It’s nicely laid out and easy to read, isn’t it? Good thing, too. You’ve probably worked up an appetite with all this coding. Now you have an idea of what to make for lunch.</p>
+        </div>
+
+
+    </div>
+
+
+    <div class="section">
+        <h2>Bonus Rounds</h2>
+        <p>Now that we have our recipe, let’s see what else we can do with the skills we’ve learned.</p>
+        <div class="projectlink">
+            <img src="./images/dessert.jpg">
+            <div class="details">
+                <h3>Time for dessert. <span class="difficulty">Easy</span></h3>
+                <p>Maybe you don’t want a sandwich. Maybe you’re in the mood for some cake? Let’s rewrite the recipe to be your favorite meal, whatever it is. Try adding longer, more complicated steps. Maybe you need to add more sections?</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="projectlink">
+            <img src="./images/step_it_up.jpg">
+            <div class="details">
+                <h3>Step it up. <span class="difficulty">Medium</span></h3>
+                <p>Sometimes it helps to have a visual for each step of a recipe. Try adding images to each step that show the stages of the recipe.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="section projects last">
+        <h2>Coder Projects to Try Next</h2>
+        <p>You've got a taste, but there’s a whole lot more that you can do with CSS and HTML. Try these other coder projects to make more cool things and learn more useful stuff.</p>
+        <p><b>Note:</b>
+        	Remember, if the tutorials have been converted for the Glitch IDE the "Open Project" button will be yellow, otherwise they are purple and will lead you to the original Coder for Pi website.
+        </p>
+
+        <!-- Mondrian -->
+        <div class="project left">
+            <span class="projectid">&lt;project&gt;</span>
+            <img class="feature" src="./images/feature_full(2).jpg">
+            <div class="details">
+                <h3>Make Your Own Mondrian</h3>
+                <p>Paint makes a mess. Code is so much cleaner. Use this project to recreate a classic Modern artwork, Piet Mondrian’s Composition II in Red, Blue, and Yellow in your browser with CSS and HTML.</p>
+                <a href="./mondrian.html" class="button inline not-converted">Open Project</a>
+                <div class="difficulty">Easy</div>
+            </div>
+        </div>
+        <!-- end project -->
+
+        <!-- Pop-Up Penguin Game  -->
+        <div class="project right">
+            <span class="projectid">&lt;project&gt;</span>
+            <img class="feature" src="./images/feature_full(3).jpg">
+            <div class="details">
+                <h3>Pop-Up Penguin Game</h3>
+                <p>Make a simple game to play with your friends and family. See if you can find all the penguins without waking the Yeti!</p>
+                <a href="https://googlecreativelab.github.io/coder-projects/projects/pop_up_penguins/" class="button inline">Open Project</a>
+                <div class="difficulty">Easy</div>
+            </div>
+        </div>
+        <!-- end project -->
+
+
+        <div class="clear"></div>
+    </div> <!-- end next projects -->
+
+    <div class="footer">
+        The code for these tutorials is licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0.txt" target="_blank">Apache 2.0</a> and the assets and documentation are under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons</a>.
+    </div>
+</body>
+</html>
