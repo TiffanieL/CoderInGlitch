@@ -88,6 +88,34 @@ A.what_is_coder:hover {
     font-size: 12px;
     line-height: 12px;
 }
+A, A:hover, A:visited, A:active {
+    color: #ffbe00;
+    text-decoration: underline;
+}
+
+A.project_download, A.project_download:hover, A.project_download:visited, A.project_download:active {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 0 0 68px;
+    background: url( ./images/project_download.png ) no-repeat;
+    background-position: 0px 4px;
+    height: 43px;
+    margin: 24px 0 18px 0;
+    width: 308px;
+    font-size: 20px;
+    line-height: 20px;
+    opacity: .9;
+    color: #ffc41a;
+}
+A.project_download:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+A.project_download .info {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+}
 
 #project_nav h1 {
     position: absolute;
@@ -574,10 +602,10 @@ img.feature {
     color: #b200b2;
     font-weight: 200;
 }
-.projectlink A, .projectlink A:visited, .projectlink A:active, .projectlink A:hover {
+/*.projectlink A, .projectlink A:visited, .projectlink A:active, .projectlink A:hover {
     color: #b200b2;
     text-decoration: none;
-}
+}*/
 .projectlink A:hover {
     text-decoration: underline;
 }

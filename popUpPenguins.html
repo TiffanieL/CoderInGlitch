@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Pop-Up Penguin Game | Coder Projects</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link href="project.css" media="all" rel="stylesheet" type="text/css"/>
+    <script src="jquery.min.js"></script>
+    <meta itemprop="name" content="Pop-Up Penguin Game | Coder Projects">
+    <meta itemprop="description" content="Things to make. Stuff to learn. Make fun web stuff in Glitch.">
+</head>
+<body>
+    <div id="project_nav">
+        <div class="project_home"><a href="http://tiffanielink.in/coderWithGlitch/">HOME</a></div>
+        <div class="project_info">&lt;project&gt; steps(06)</div>
+        <h1>Pop-Up Penguin Game</h1>
+        <a href="http://goo.gl/coder" class="what_is_coder">Original CODER website</a>
+    </div>
+    <div class="section intro">
+        <img class="feature" src="./images/feature_full(3).jpg" />
+        <a href="./downloads/popUpPenguins_images.zip" target="_blank" class="project_download">Download Complete Project<span class="info">180k | .zip file</span></a>
+    </div>
+    <div class="section description">
+        <div class="details">
+            <h2>Description</h2>
+            <p>Make a simple game to play with your friends and family. See if you can find all the penguins without waking the Yeti!</p>
+            <p class="whofor"><strong>A great project for:</strong>
+             Penguin watchers, yeti hunters, puzzle lovers, and anyone that wants to challenge someone to a battle of adorable wits.
+            </p>
+        </div>
+        <div class="meta">
+            <div class="difficulty">Easy</div>
+            <p><span class="name">Skills Needed:</span>
+                Basic HTML, Basic CSS
+            </p>
+            <p><span class="name">Skills Learned:</span>
+                CSS Pseudo-Classes, Hover, Active, Cursor, Images 
+            </p>
+            <p><span class="name">Created By:</span>
+                <a href="http://googlecreativelab.github.io/coder-projects/" target="_blank">Coder Team</a>
+            </p><p><span class="name">Converted to Glitch By:</span>
+                <a href="http://tiffanielink.in" target="_blank">Tiffanie</a>
+            </p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="section">
+        <h2>Are you ready for the yeti?</h2>
+        <p>This project is pretty simple but having a little background with HTML, CSS, and Divs will help you unlock its secrets more quickly.</p>
+        <div class="projectlink">
+            <img src="./images/feature_sml(1).jpg" />
+            <div class="details">
+                <h3><a href="../perfect_recipe/">Coder Project: Perfect Recipe</a></h3>
+                <p>A place to start if you’re unfamiliar with Coder or the basics of CSS and HTML. This project also covers image placement and uploading media files into Coder.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="projectlink">
+            <img src="./images/feature_sml(2).jpg" />
+            <div class="details">
+                <h3><a href="../mondrian/">Coder Project: Mondrian</a></h3>
+                <p>A good introduction to CSS styles and simple div placement and measurement.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="projectlink">
+            <img src="./images/download_penguins.jpg"/>
+            <div class="details">
+                <h3><a href="./downloads/popUpPenguins_images.zip" target="_blank">Download: Penguin Images</a></h3>
+                <p>You can use our artwork to get started. <a href="./downloads/popUpPenguins_images.zip" target="_blank">Download popUpPenguins_images.zip here</a>.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="section steps">
+        <div class="step">
+            <h2>Get the penguin images!</h2>
+            <p>Before we start, we need to make sure we have all the image files this project requires. If you haven’t already, download the file at the top of this page called <a href="./downloads/popUpPenguins_images.zip">popUpPenguins_images.zip</a>.</p>
+            <p>Once you’ve downloaded the <b>zip</b> file make sure it’s in a place you can find it and open it to get at the files inside. It should be full of image files with the <b>"png"</b> extension.</p>
+
+        </div>
+        <div class="step">
+            <h2>Step 1: Upload our penguins</h2>
+            <p>Alright. Let’s start making our cute penguin game. The first thing we need to do is upload all our penguin images. </p>
+            <ul>
+                <li>Make a new project in Glitch. We called ours <b>pop-up-penguins</b>.</li>
+                <li>Open or unzip the <b>popUpPenguins_images.zip</b> file. You need the image files inside, not the zip itself.</li>
+                <li>In Glitch, open the assets tab in your project. It's at the top under the "+ New File" button.</li>
+                <li>Click the "Add asset " button and then the "Computer " button.</li>
+                <li>Navigate to the <b>popUpPenguins_images.zip</b> file or whereever you unzipped them to. Select all of the images and click open.</li>
+                <li>It might take a minute, your files will upload into your project.</li>
+            </ul>
+        </div>
+        <div class="step">
+            <h2>Step 2: Make some divs</h2>
+            <br>
+            <img src="./images/popUpPenguins_step02.png"/>
+            <p>Now that we’ve added all our files let’s start building our game. We’ll be adding a set of divs to our HTML and matching styles in our CSS that create the image above.</p>
+            <ul>
+                <li>Open the HTML file and delete everything between the <b>&lt;body></b> tags.</li>
+                <li>Add the following code:</li>
+            </ul>
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #666666">&lt;</span><span style="color: #062873; font-weight: bold">body</span><span style="color: #666666">&gt;</span>
+  <span style="color: #666666">&lt;</span><span style="color: #062873; font-weight: bold">div</span> <span style="color: #062873; font-weight: bold">id</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;gameholder&quot;</span><span style="color: #666666">&gt;</span>
+    <span style="color: #666666">&lt;</span><span style="color: #062873; font-weight: bold">div</span> <span style="color: #062873; font-weight: bold">id</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;title&quot;</span><span style="color: #666666">&gt;&lt;/</span><span style="color: #062873; font-weight: bold">div</span><span style="color: #666666">&gt;</span>
+    <span style="color: #666666">&lt;</span><span style="color: #062873; font-weight: bold">div</span> <span style="color: #062873; font-weight: bold">class</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;penguin1&quot;</span><span style="color: #666666">&gt;&lt;/</span><span style="color: #062873; font-weight: bold">div</span><span style="color: #666666">&gt;</span>
+    <span style="color: #666666">&lt;</span><span style="color: #062873; font-weight: bold">div</span> <span style="color: #062873; font-weight: bold">class</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;penguin2&quot;</span><span style="color: #666666">&gt;&lt;/</span><span style="color: #062873; font-weight: bold">div</span><span style="color: #666666">&gt;</span>
+    <span style="color: #666666">&lt;</span><span style="color: #062873; font-weight: bold">div</span> <span style="color: #062873; font-weight: bold">class</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;penguin3&quot;</span><span style="color: #666666">&gt;&lt;/</span><span style="color: #062873; font-weight: bold">div</span><span style="color: #666666">&gt;</span>
+    <span style="color: #666666">&lt;</span><span style="color: #062873; font-weight: bold">div</span> <span style="color: #062873; font-weight: bold">class</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;penguin4&quot;</span><span style="color: #666666">&gt;&lt;/</span><span style="color: #062873; font-weight: bold">div</span><span style="color: #666666">&gt;</span>
+    <span style="color: #666666">&lt;</span><span style="color: #062873; font-weight: bold">div</span> <span style="color: #062873; font-weight: bold">class</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;penguin5&quot;</span><span style="color: #666666">&gt;&lt;/</span><span style="color: #062873; font-weight: bold">div</span><span style="color: #666666">&gt;</span>
+    <span style="color: #666666">&lt;</span><span style="color: #062873; font-weight: bold">div</span> <span style="color: #062873; font-weight: bold">class</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;penguin6&quot;</span><span style="color: #666666">&gt;&lt;/</span><span style="color: #062873; font-weight: bold">div</span><span style="color: #666666">&gt;</span>
+    <span style="color: #666666">&lt;</span><span style="color: #062873; font-weight: bold">div</span> <span style="color: #062873; font-weight: bold">class</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;penguin7&quot;</span><span style="color: #666666">&gt;&lt;/</span><span style="color: #062873; font-weight: bold">div</span><span style="color: #666666">&gt;</span>
+    <span style="color: #666666">&lt;</span><span style="color: #062873; font-weight: bold">div</span> <span style="color: #062873; font-weight: bold">class</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;penguin8&quot;</span><span style="color: #666666">&gt;&lt;/</span><span style="color: #062873; font-weight: bold">div</span><span style="color: #666666">&gt;</span>
+    <span style="color: #666666">&lt;</span><span style="color: #062873; font-weight: bold">div</span> <span style="color: #062873; font-weight: bold">class</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;yeti&quot;</span><span style="color: #666666">&gt;&lt;/</span><span style="color: #062873; font-weight: bold">div</span><span style="color: #666666">&gt;</span>
+  <span style="color: #666666">&lt;/</span><span style="color: #062873; font-weight: bold">div</span><span style="color: #666666">&gt;</span>
+<span style="color: #666666">&lt;/</span><span style="color: #062873; font-weight: bold">body</span><span style="color: #666666">&gt;</span>
+</pre></div>
+
+            <p><i>What this code is doing:</i></p>
+            <p>These divs are defining the structure for our game. Each <b>“penguin”</b> div will be a little bump of snow hiding a penguin (or yeti). We will be adding the images to them in the CSS.</p>
+            <ul>
+                <li>Next, go to the CSS tab.</li>
+                <li>Go ahead and erase the code that’s already there.</li>
+            </ul>
+            <p><i>Add the following code to the CSS tab:</i></p>
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">body</span> {
+  <span style="color: #007020; font-weight: bold">background-color</span><span style="color: #666666">:</span> <span style="color: #40a070">#ccf5f5</span>;
+}
+
+<span style="color: #06287e">#gameholder</span> {
+  <span style="color: #007020; font-weight: bold">width</span><span style="color: #666666">:</span> <span style="color: #40a070">600px</span>;
+  <span style="color: #007020; font-weight: bold">margin-left</span><span style="color: #666666">:</span> <span style="color: #007020; font-weight: bold">auto</span>;
+  <span style="color: #007020; font-weight: bold">margin-right</span><span style="color: #666666">:</span> <span style="color: #007020; font-weight: bold">auto</span>;
+}
+
+<span style="color: #06287e">#title</span> {
+  <span style="color: #007020; font-weight: bold">width</span><span style="color: #666666">:</span> <span style="color: #40a070">600px</span>;
+  <span style="color: #007020; font-weight: bold">height</span><span style="color: #666666">:</span> <span style="color: #40a070">150px</span>;
+  <span style="color: #007020; font-weight: bold">background-image</span><span style="color: #666666">:</span><span style="color: #c65d09">url(&#39;&#39;)</span>;
+}
+</pre></div>
+
+            <p><i>What this code is doing:</i><p>
+            <p><b>body</b> is making our background a nice blue color.</p>
+            <p><b>#gameholder</b> is making our <b>gameholder</b> div <b>600px</b> wide and centering it in the screen. It’s invisible, but helps us organize our other elements.</p>
+        	<p><b>#title</b> is setting a size for our our <b>title</b> div and giving that div a background image. In this case that image happens to be the title/instructions to our game. We’ll add that in the next step.</p>
+        	<ul>
+        		<li>Now open the assets tab.</li>
+        		<li>Find the that says "Find The Penguins" and click to open it.</li>
+        		<li>Click on the "Copy URL" button.</li>
+                <li>Navigate back to your style.css file and find the line <b>background-image:url('');</b></li>
+                <li>Place your cursor in between the quotes and paste.</li>
+        	</ul>
+            <p><i>Ours looks like this:</i></p>
+<!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #06287e">#title</span> {
+  <span style="color: #007020; font-weight: bold">width</span><span style="color: #666666">:</span> <span style="color: #40a070">600px</span>;
+  <span style="color: #007020; font-weight: bold">height</span><span style="color: #666666">:</span> <span style="color: #40a070">150px</span>;
+  <span style="color: #007020; font-weight: bold">background-image</span><span style="color: #666666">:</span><span style="color: #c65d09">url(&#39;https://cdn.glitch.com/d0bcd6cf-fb28-40b4-8172-850783a9e41a%2Fpenguin_title.png?1509564673523&#39;)</span>;
+}
+</pre></div>
+
+
+        	<p>Save and take a look at the preview window. You should see some snow covered lettering that says <b>“Find the Penguins.”</b><p>
+        	<p>We’ve got our title, let’s add some little snow-covered mounds for our penguins!</p>
+        	<p><i>Add the following class to the CSS tab:</i></p>
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #0e84b5; font-weight: bold">.penguin1</span> {
+  <span style="color: #007020; font-weight: bold">width</span><span style="color: #666666">:</span> <span style="color: #40a070">200px</span>;
+  <span style="color: #007020; font-weight: bold">height</span><span style="color: #666666">:</span> <span style="color: #40a070">200px</span>;
+  <span style="color: #007020; font-weight: bold">float</span><span style="color: #666666">:</span> <span style="color: #007020; font-weight: bold">left</span>;
+  <span style="color: #007020; font-weight: bold">background-image</span><span style="color: #666666">:</span><span style="color: #c65d09">url(&#39;&#39;)</span>;
+}
+</pre></div>
+
+            <ul>
+            	<li>Now open the assets tab.</li>
+            	<li>Find the first image of a mound without the question mark, click on it.</li>
+                <li>Click on the "Copy URL" button.</li>
+            	<li>Navigate back to your CSS, put your cursor between the <b>(' ')</b> at the end of the background image property and paste.</li>
+            </ul>
+            <p><i>All of our CSS looks like this so far:</i></p>
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">body</span> {
+  <span style="color: #007020; font-weight: bold">background-color</span><span style="color: #666666">:</span> <span style="color: #40a070">#ccf5f5</span>;
+}
+
+<span style="color: #06287e">#gameholder</span> {
+  <span style="color: #007020; font-weight: bold">width</span><span style="color: #666666">:</span> <span style="color: #40a070">600px</span>;
+  <span style="color: #007020; font-weight: bold">margin-left</span><span style="color: #666666">:</span> <span style="color: #007020; font-weight: bold">auto</span>;
+  <span style="color: #007020; font-weight: bold">margin-right</span><span style="color: #666666">:</span> <span style="color: #007020; font-weight: bold">auto</span>;
+}
+
+<span style="color: #06287e">#title</span> {
+  <span style="color: #007020; font-weight: bold">width</span><span style="color: #666666">:</span> <span style="color: #40a070">600px</span>;
+  <span style="color: #007020; font-weight: bold">height</span><span style="color: #666666">:</span> <span style="color: #40a070">150px</span>;
+  <span style="color: #007020; font-weight: bold">background-image</span><span style="color: #666666">:</span><span style="color: #c65d09">url(&#39;https://cdn.glitch.com/d0bcd6cf-fb28-40b4-8172-850783a9e41a%2Fpenguin_title.png?1509564673523&#39;)</span>;
+}
+
+<span style="color: #0e84b5; font-weight: bold">.penguin1</span> {
+  <span style="color: #007020; font-weight: bold">width</span><span style="color: #666666">:</span> <span style="color: #40a070">200px</span>;
+  <span style="color: #007020; font-weight: bold">height</span><span style="color: #666666">:</span> <span style="color: #40a070">200px</span>;
+  <span style="color: #007020; font-weight: bold">float</span><span style="color: #666666">:</span> <span style="color: #007020; font-weight: bold">left</span>;
+  <span style="color: #007020; font-weight: bold">background-image</span><span style="color: #666666">:</span><span style="color: #c65d09">url(&#39;https://cdn.glitch.com/d0bcd6cf-fb28-40b4-8172-850783a9e41a%2Fmound_5.png?1509564669049&#39;)</span>;
+}
+</pre></div>
+
+            <p><b><i>To finish this step:</i></b></p>
+            <p>Copy the <b>.penguin1</b> class and use it to make styles for <b>.penguin2</b> through <b>.penguin8</b>. Make a <b>.yeti</b> class as well, there are nine mounds. You’ll need to go back to your assets tab for each image. It's ok if you use the same one twice, but it looks better if they are all different!</p>	
+        </div>
+
+    	<div class="step">
+            <h2>Step 3: Add a rollover</h2>
+            <br>
+            <img src="./images/popUpPenguins_step03.png"/>
+            <p>Now let’s add a rollover or <b>:hover</b> effect to each one of our mounds. This will pop up a question mark and jiggle the snow a little adding intrigue and suspense to our game.</p>
+            <ul>
+            	<li>In the CSS tab find our <b>.penguin1</b> class.</li>
+            	<li>Make a new line above the class and add the following style:</li>
+            </ul>
+            <!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #0e84b5; font-weight: bold">.penguin1</span><span style="color: #555555; font-weight: bold">:hover</span> {
+  <span style="color: #007020; font-weight: bold">background-image</span><span style="color: #666666">:</span><span style="color: #c65d09">url(&#39;&#39;)</span>;
+  <span style="color: #007020; font-weight: bold">cursor</span><span style="color: #666666">:</span> <span style="color: #007020; font-weight: bold">pointer</span>;
+}
+</pre></div>
+
+            <p>This style is what’s called a <b>pseudo-class</b>. It’s a way to add effects and additional styles to elements that we’ve already created. In this case we will be changing the background image of that div when a mouse is over it. We will also be changing the cursor to a pointer, or little hand giving our users another clue that the mound is clickable.</p>
+            <ul>
+            	<li>Go into the assets tab and find the first image of a mound with a question mark.</li>
+            	<li>Paste the image URL inside the quotes <b>('')</b> of the <b>background-image</b> property.</li>
+            	<li>Check out the preview and move your mouse over the first mound. Did the question mark pop up? That’s <b>:hover</b> doing its job.</li>
+            </ul>
+            <p><b><i>To finish this step:</i></b></p>
+            <p>Make new <b>:hover</b> classes for each of our <b>.penguin</b> and <b>.yeti</b> classes. You can find the images in the assets tab like you did in the previous step.</p>
+    	</div>
+    	<div class="step">
+            <h2>Step 4: Pop up the penguins!</h2>
+            <br>
+            <img src="assets/images/step_04.jpg"/>
+            <p>Now that we’ve got our mounds tempting us with those question marks, let’s hide some penguins (and a yeti!) inside each one and use another <b>pseudo-class</b> to make them pop up when clicked.</p>
+            <ul>
+            	<li>In the CSS tab find the <b>.penguin1:hover</b> class.</li>
+            	<li>Underneath, that class add the following class:</li>
+            </ul>
+            <div class="codeview">
+                <div class="data" data-type="css">
+.penguin1:active {
+    background-image:url('');
+}
+                </div>
+            </div>
+            <p><b>:active</b> is another type of <b>pseudo-class</b>. Similar <b>:hover</b> it adds/changes the style of <b>.penguin1</b> when the <b>div</b> is <i>clicked</i> with the mouse.</p>
+            <p>The position in the code of <b>pseudo-classes</b> is important. An <b>:active</b> class should always come after or underneath <b>:hover</b> in the code for the effect to work properly.</p>
+            <ul>
+            	<li>Go into the media tab and find a penguin image. You can start with <b>penguin_1.png</b>.</li>
+            	<li>Paste the code for the image inbetween the <b>(‘’)</b></li>
+            	<li>Go back to the preview and click the first mound. Did the penguin pop up? Hold your mouse button down to keep the penguin from popping back down.</li>
+            </ul>
+            <p><b><i>To finish this step:</i></b></p>
+            <p>Make new <b>:active</b> classes for each of our <b>.penguin</b> and <b>.yeti</b> classes. Add penguin images from the media tab. Make sure you hide the Yeti somewhere too.</p> 
+        <div>
+        <div class="step">
+            <h2>Step 5: Yeti alert!</h2>
+            <br>
+            <img src="assets/images/step_05.jpg"/>
+            <p>We’ve got all our penguins and yeti in place. Let’s add a yeti alert that will pop up when the yeti is clicked!</p>
+            <ul>
+            	<li>Go to the JS tab. </li>
+                <li>On the line below <b>“//This code will run after your page loads”</b> add a handler for the "<b>mousedown</b>" event to the <b>.yeti</b> div. It will look like this:</li>
+            </ul>
+            <div class="codeview">
+                <div class="data" data-type="javascript">
+$(document).ready( function() {
+
+    //This code will run after your page loads
+
+    $(".yeti").mousedown(function() {
+        alert("Yaaaarrrr!");
+    });
+
+});
+                </div>
+            </div>
+            <p>This is a little bit of <b>Javascript</b> and <b>jQuery</b> that will pop up a browser alert with the text “Yaaaarrrr” when you press your mouse button on the yeti. Try it out in the preview mode. To learn more about Javascript try playing around with the <b>Night and Day</b> project next.</p>    
+    	</div>
+    	<div class="step">
+            <h2>Step 6: Mix it up and challenge someone</h2>
+            <br>
+            <img src="assets/images/step_06.jpg"/>
+            <p>Now that we’ve got all our penguins (and yeti) hidden let’s play the game! Find a friend or a family member and challenge them to find all the penguins without accidently clicking on the yeti.</p>
+            <p>After they’ve had a go, mix the <b>classes</b> up in your HTML to reshuffle the mounds and let them try again. To make it extra challenging, change the images in the <b>:active</b> states to put different penguins (and your yeti) under different mounds.</p>
+            <p><b><i>To finish this step:</i></b></p>
+            <p>Teach your playing partner how to change the images in the <b>:active</b> states and trade off challenging each other to a game of <b>“Find the Penguins.”</b></p>
+        </div>    
+    </div> <!-- end all steps section -->
+
+    <div class="section">
+        <h2>Bonus Rounds</h2>
+        <p>Once you’ve mastered the game we’ve built together, see if you can make it bigger and better.</p>
+        <div class="projectlink">
+            <img src="assets/images/colony.jpg" />
+            <div class="details">
+                <h3>A whole colony! <span class="difficulty">Easy</span></h3>
+                <p>Why not make it more challenging. Double or triple the number of mounds to make the game more difficult! You can use the same <b>penguin</b> png files more than once if you like but you’ll need to make more <b>divs</b> and <b>classes</b>.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="projectlink">
+            <img src="assets/images/stay_penguin.jpg" />
+            <div class="details">
+                <h3>Stay, penguin, stay! <span class="difficulty">Hard</span></h3>
+                <p>See if you can use <b>Javascript</b> and <b>jQuery</b> to make the penguins stay up when clicked and disappear when the yeti is awoken. If you’re not sure how to do that try finishing the <b><a href="../night_and_day/">Night and Day</a></b> project to learn some tricks.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="projectlink">
+            <img src="assets/images/sfx.jpg" />
+            <div class="details">
+                <h3>Real squeaks, squawks, and roars  <span class="difficulty">Hard</span></h3>
+                <p>If you feel like your penguin game is lacking certain level of auditory awesomeness try adding some sound effects to each click. You’ll probably need to learn a little bit about audio files. Fortunately, our <b><a href="../music_boxes/">Music Boxes</a></b> project covers those subjects. </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="section projects last">
+        <h2>Coder Projects to Try Next</h2>
+        <p>Making interactive things is kinda cool. Try these projects next, if you want to make your mouse clicks even more powerful.</p>
+
+        <!-- Night and Day -->
+        <div class="project left">
+            <span class="projectid">&lt;project&gt;</span>
+            <img class="feature" src="../night_and_day/assets/images/feature_full.jpg" />
+            <div class="details">
+                <h3>Night and Day</h3>
+                <p>Ever wish you could control the universe? Well now you can pretend with this project. Change day into night and back again with the click of a mouse and learn a whole new programming language along the way.</p>
+                <a href="../night_and_day/" class="button inline">Open Project</a>
+                <div class="difficulty">Medium</div>
+            </div>
+        </div>
+        <!-- end project -->
+
+        <!-- Music Boxes -->
+        <div class="project right">
+            <span class="projectid">&lt;project&gt;</span>
+            <img class="feature" src="../music_boxes/assets/images/feature_full.jpg" />
+            <div class="details">
+                <h3>Music Boxes</h3>
+                <p>Let’s turn it up. This project will transform your browser into a simple instrument that you can use to make music.</p>
+                <a href="../music_boxes/" class="button inline">Open Project</a>
+                <div class="difficulty">Medium</div>
+            </div>
+        </div>
+        <!-- end project -->
+
+
+        <div class="clear"></div>
+    </div> <!-- end next projects -->
+    <div class="footer">
+        <div class="madewith bottom"></div>
+        <div class="links">
+            <a href="http://www.google.com/intl/en/policies/" class="trackout">Privacy and Terms</a>
+            <div class="plusholder">
+                <div class="g-plusone"></div>
+            </div>
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+        </div>
+    </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41998892-3', 'googlecreativelab.github.io');
+  ga('send', 'pageview');
+  
+</script>
+</body>
+</html>
